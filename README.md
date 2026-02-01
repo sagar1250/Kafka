@@ -1,6 +1,8 @@
 # Kafka
 Kafka hands-on
 
+## Installing Apache Kafka on Windows
+
 ### Download kafka for windows:
 Link:https://kafka.apache.org/community/downloads/
 
@@ -20,5 +22,8 @@ Link: https://www.oracle.com/in/java/technologies/downloads/
 6. after successfull set, check for the version by opening power shell from the search bar
 7. Type "java -version", press enter -> you should see the java version as mentioned in the screenshot below
    <img width="595" height="134" alt="image" src="https://github.com/user-attachments/assets/f8113e31-e170-4b81-82d7-b95fe0ef7f28" />
+
+
+## Starting Zookeeper and Apache Kafka server on Windows
 
 
