@@ -26,4 +26,28 @@ Link: https://www.oracle.com/in/java/technologies/downloads/
 
 ## Starting Zookeeper and Apache Kafka server on Windows
 
+We need to download VS Code.
+Link:https://code.visualstudio.com/docs/setup/windows
+
+After downloading VS Code on Windows from the above link. Next step is to open the Kafka folder in VS Code.
+
+<img width="246" height="146" alt="image" src="https://github.com/user-attachments/assets/ac5009d6-02be-42e6-8fff-ad081c047493" />
+
+### How to set up Path: ( Need to configure  for Apache Server and zookeeper server
+1.go to config folder -> check for server.properties file
+2. search for workpath and now create a Kafka-logs folder undermain folder to 
+
+Logs - > stores system logs
+Kafka-logs which we created will store messages that send by producers and consumed by consumers 
+
+before path changed:
+<img width="235" height="40" alt="image" src="https://github.com/user-attachments/assets/35111430-03bc-4860-8206-4528e6b2b269" />
+
+After path changed and added a folder named kafka-logs
+<img width="656" height="344" alt="image" src="https://github.com/user-attachments/assets/dafbf22d-858e-4549-b7ff-1cf13d50449a" />
+
+
+
+
+
 
