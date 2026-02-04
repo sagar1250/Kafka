@@ -46,6 +46,53 @@ before path changed:
 After path changed and added a folder named kafka-logs
 <img width="656" height="344" alt="image" src="https://github.com/user-attachments/assets/dafbf22d-858e-4549-b7ff-1cf13d50449a" />
 
+## First understand what is Kafka and ZooKeeper
+
+### What is Apache Kafka?
+Apache kafka is a distributed messaging  system used to store, send and process data in real time.
+
+### In simple words
+Kafka works like a high-speed message pipeline
+
+### for Example
+Application sends logs, events or data -> Kafka stores it -> other applications read it
+
+### Some realworld examples:
+1.payment transactions
+2.website activity tracking 
+3.log processing
+4.realtime analytics
+
+### Main Kafka components:
+Producer: sends data
+broker: kafka serer storing data
+Topic:category where messagaes are stored
+Consumer:reads data
+
+## Now we will know what Apache Zookeeper?
+Apache Zookeeper is a service that manages and coordinates distributed systems
+
+Its act like a manager or coordinates for servers.
+
+
+### Simple understanding about Zookeeper
+
+-> It keeps track of which servers are alive
+-> It also keeps track of who is the leader
+->Also keep track of Cluster configuration.
+
+It helps servers stay Synchronised.
+
+<img width="305" height="167" alt="image" src="https://github.com/user-attachments/assets/f5ad5a53-e2ca-4ad3-9e01-e2f998cd95e1" />
+
+<img width="241" height="405" alt="image" src="https://github.com/user-attachments/assets/5fb5f67c-d43a-4483-b612-bc59f0f08d46" />
+
+
+
+
+
+
+
 
 
 
